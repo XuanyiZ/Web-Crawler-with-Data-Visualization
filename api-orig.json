@@ -1,0 +1,21 @@
+[
+  {
+    "a1": {
+      "json_class": "Actor",
+      "name": "a1",
+      "age": 28,
+      "total_gross": 28000,
+      "movies": ["m1"]
+    }
+  },
+  {
+    "m1": {
+      "json_class": "Movie",
+      "name": "m1",
+      "wiki_page": "https://en.wikipedia.org/wiki/m1",
+      "box_office": 15000,
+      "year": 2000,
+      "actors": ["a1"]
+    }
+  }
+]

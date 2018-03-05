@@ -1,0 +1,69 @@
+[
+    {
+        "Alex": {
+            "age": 67,
+            "json_class": "Actor",
+            "movies": [],
+            "name": "Alex",
+            "total_gross": 55344
+        },
+        "Allen": {
+            "age": 61,
+            "json_class": "Actor",
+            "movies": [],
+            "name": "Allen",
+            "total_gross": 42510
+        },
+        "Bob": {
+            "age": 38,
+            "json_class": "Actor",
+            "movies": [],
+            "name": "Bob",
+            "total_gross": 19000
+        },
+        "Steven": {
+            "age": 38,
+            "json_class": "Actor",
+            "movies": [],
+            "name": "Steven",
+            "total_gross": 19000
+        },
+        "a1": {
+            "age": 28,
+            "json_class": "Actor",
+            "movies": [
+                "m1"
+            ],
+            "name": "a1",
+            "total_gross": 28000
+        }
+    },
+    {
+        "Racing 4": {
+            "actors": [],
+            "box_office": 4898653,
+            "json_class": "Movie",
+            "name": "Racing 4",
+            "wiki_page": "https://en.wikipedia.org/wiki/Racing 4",
+            "year": 1939
+        },
+        "The Wonder Woman": {
+            "actors": [],
+            "box_office": 1545921,
+            "json_class": "Movie",
+            "name": "The Wonder Woman",
+            "wiki_page": "https://en.wikipedia.org/wiki/The Wonder Woman",
+            "year": 1909
+        },
+        "m1": {
+            "actors": [
+                "a1"
+            ],
+            "box_office": 2000000,
+            "json_class": "Movie",
+            "name": "m1",
+            "wiki_page": "https://en.wikipedia.org/wiki/m1",
+            "year": 2009
+        }
+    }
+]

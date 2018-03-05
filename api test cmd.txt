@@ -1,0 +1,12 @@
+post  127.0.0.1:5000/actors?name=”Lucy"
+
+post 127.0.0.1:5000/movies?name="Racing 6"
+
+delete 127.0.0.1:5000/movies/Racing 6
+
+get 127.0.0.1:5000/movies?year=2000
+
+get 127.0.0.1:5000/movies/The Wonder Woman
+
+
+put 127.0.0.1:5000/movies/m1?year=2008

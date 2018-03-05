@@ -48,3 +48,20 @@ class TestGraph(unittest.TestCase):
     my_graph.actors_in_the_year(1500)
     assert 0 == (len(my_graph.actors_in_the_year(1500)))
 
+
+
+
+    my_graph.built_age_gross_plot()
+
+    my_graph.built_hub_plot()
+
+    print(my_graph.get_actor_age("Ethan Hawke"))
+    print(my_graph.find_hub_actor(1))
+
+
+
+    test = json.load(open('data.json',encoding='utf-8'))
+    my_graph.actors_dict=test[0]
+    my_graph.movies_dict=test[1]
+    my_graph.built_graph_visualization()
+
